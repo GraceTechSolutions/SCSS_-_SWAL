@@ -1,0 +1,29 @@
+@use 'base';
+
+@mixin btn {
+    background-color: #2980b9;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    padding: 20px 45px;
+}
+
+body {
+    .container {
+        .btn1{
+            @include btn;
+        }
+        .btn2{
+            @include btn;
+            background-color: #1abc9c;
+        }
+        .btn3{
+            @include btn;
+            background-color: #2ecc71;
+        }
+        .btn4{
+            @include btn;
+            border-color: #d35400;
+        }
+    }
+}

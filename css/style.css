@@ -1,0 +1,36 @@
+body {
+  background-color: #34495e;
+  font-family: Helvatika, sans-serif;
+}
+
+body .container .btn1 {
+  background-color: #2980b9;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #FFF;
+  padding: 20px 45px;
+}
+body .container .btn2 {
+  background-color: #2980b9;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #FFF;
+  padding: 20px 45px;
+  background-color: #1abc9c;
+}
+body .container .btn3 {
+  background-color: #2980b9;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #FFF;
+  padding: 20px 45px;
+  background-color: #2ecc71;
+}
+body .container .btn4 {
+  background-color: #2980b9;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #FFF;
+  padding: 20px 45px;
+  border-color: #d35400;
+}
